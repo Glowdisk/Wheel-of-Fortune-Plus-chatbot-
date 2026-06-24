@@ -22,7 +22,7 @@ public class GameWheel
     public void removeSlice()
     {
         if (slices.size() > 1) {
-                slices.removeLast();
+                slices.remove(slices.size()-1);
             }
     }
 

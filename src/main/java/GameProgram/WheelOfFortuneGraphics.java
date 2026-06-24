@@ -44,7 +44,7 @@ public class WheelOfFortuneGraphics extends JPanel {
 
     private ArrayList<JTextArea> responses = new ArrayList<JTextArea>();
 
-    Image desktopIcon = new ImageIcon(Objects.requireNonNull(WheelOfFortuneGraphics.class.getResource("/paul.JPG"))).getImage();
+//    Image desktopIcon = new ImageIcon(Objects.requireNonNull(WheelOfFortuneGraphics.class.getResource("/paul.JPG"))).getImage();
 
     boolean spinning = false;
     
@@ -73,7 +73,7 @@ public class WheelOfFortuneGraphics extends JPanel {
         frame.setSize(width, height);
         frame.setLocation(startX, startY);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setIconImage(desktopIcon);
+//        frame.setIconImage(desktopIcon);
 
         JPanel panel2 = new JPanel();
         panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
